@@ -21,15 +21,15 @@ chmod +x start.sh
 
 1. Connect your Android phone via USB to your host machine.
 
-2. Run `./start.sh` to start the spin up the container.
+2. Run `./start.sh` to start the container.
 
-You may be asked by your phone to authorize USB debugging. 
+*You may be asked by your phone to authorize USB debugging.*
 
 **If you have not previously installed the Drozer Agent**, inside the docker image run:
 ```
 adb install drozer-agent-2.3.4.apk
 ```
-4. Start the Drozer Agent app on your phone and turn the Embedded Server *ON*
+4. Start the Drozer Agent app on your phone and turn the Embedded Server **ON**
 
-5. Start `drozer` with command `drozer`
+5. Start drozer with command `drozer`
 
