@@ -3,6 +3,7 @@
 # latest Debian
 # openjdk 11
 # Android SDK 28
+# Drozer 2.4.4
 #
 ############################
 

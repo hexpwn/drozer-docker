@@ -1,6 +1,6 @@
 # Drozer docker container
 
-**UPDATED: 2020-jun-01**
+**UPDATED: 2020-jun-02**
 
 Docker container for Android analysis with Drozer (https://github.com/FSecureLABS/drozer)
 
