@@ -33,6 +33,9 @@ RUN wget -qO /tmp/androidsdk.zip https://dl.google.com/android/repository/comman
 ENV ANDROID_HOME /opt/android
 ENV PATH $PATH:$ANDROID_HOME/cmdline-tools/tools/bin:$ANDROID_HOME/platform-tools
 
+# Hack to get PATH working with tmux
+RUN echo "PATH=$PATH" >> /home/drozer/.bashrc
+
 # Update and install Android SDK packages
 RUN sdkmanager --update &&\
 	# using 'yes' to auto-accept the license agreement
