@@ -13,7 +13,7 @@ RUN useradd -ms /bin/bash drozer
 
 # Install all dependencies
 RUN apt-get update &&\
-	apt-get -y install wget unzip &&\
+	apt-get -y install wget unzip tmux&&\
 	apt-get -y install python2.7 python-dev python-protobuf python-openssl python-twisted &&\
 	apt-get -y install openjdk-11-jre-headless &&\
 	apt-get clean &&\
